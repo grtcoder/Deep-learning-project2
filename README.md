@@ -19,12 +19,8 @@ This project fine-tunes a RoBERTa-based model on the [AG News dataset](https://h
 
 ```
 deep-learning-project-2/
-├── script.py                # Main training script
-├── submission.csv           # Output predictions on test set
 ├── README.md                # Project overview and instructions
-├── final_student_model/     # Final fine-tuned student model (optional)
-├── teacher_model/           # Saved teacher model checkpoints
-├── student_model/           # Saved student model (distilled)
+├── notebook.ipynb           # This contains code for the project
 ```
 
 ---
@@ -76,9 +72,11 @@ If using a GPU-enabled environment (e.g., Kaggle, Colab, or local CUDA), make su
 
 - Use **LoRA** to reduce trainable parameters
 - Distill knowledge using a custom loss:
-  \[
-  	ext{Loss} = lpha \cdot 	ext{KL}(S \| T) + (1 - lpha) \cdot 	ext{CE}
-  \]
+
+![Loss Equation](https://latex.codecogs.com/svg.image?\color{White}%20\textbf{Loss}=\alpha\cdot\text{KL}(S\|T)+(1-\alpha)\cdot\text{CE})
+
+
+
 
 ### Step 4: Final Fine-Tuning
 
@@ -141,10 +139,12 @@ ID,label
 
 ## 👨‍💻 Authors
 
-- **Your Name** – [@yourhandle](https://github.com/yourhandle)
+- Divyanshu Mathpal – [@grtcoder](https://github.com/grtcoder)
+- Sampurna Khuntia
+- Sai Harsha  - 
 
 > Deep Learning Project 2 — Spring 2025  
-> Course Instructor: [Instructor Name]
+> Course Instructor: Chinmay Hegde
 >
 
 ## 📊 Results
