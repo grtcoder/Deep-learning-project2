@@ -13,6 +13,7 @@ This project fine-tunes a RoBERTa-based model on the [AG News dataset](https://h
 - ✅ Custom `DistillationTrainer` with KL Divergence + Cross-Entropy loss
 - ✅ Final model tested on unseen data and exported as `submission.csv`
 
+
 ---
 
 ## 🗂️ Repository Structure
@@ -161,9 +162,13 @@ ID,label
 - **Accuracy:** 94.71%  
 - **F1 Score:** 94.71%
 
+## Loss plot
+![Student Distillation Loss vs Step](images/student_distill_loss.jpeg)
 
 ---
 
 ## 📜 License
 
 This project is open-sourced for educational use. See [LICENSE](LICENSE) for details.
+
+This is new stuff
