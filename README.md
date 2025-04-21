@@ -145,6 +145,22 @@ ID,label
 
 > Deep Learning Project 2 — Spring 2025  
 > Course Instructor: [Instructor Name]
+>
+
+## 📊 Results
+
+### 🧑‍🏫 Teacher Model
+- **Validation Loss:** 0.2205  
+- **Accuracy:** 93.03%  
+- **F1 Score:** 93.02%
+
+---
+
+### 👩‍🎓 Student Model (LoRA + Distillation)
+- **Validation Loss:** 0.1530  
+- **Accuracy:** 94.71%  
+- **F1 Score:** 94.71%
+
 
 ---
 
